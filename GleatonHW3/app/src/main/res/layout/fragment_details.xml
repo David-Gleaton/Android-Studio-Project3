@@ -1,0 +1,390 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Template_Details"
+        tools:context="com.example.gleatonhw3.DetailsFragment">
+            <!-- TODO: Update blank fragment layout -->
+
+
+
+            <TextView
+                android:id="@+id/LocationName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Detail_Title"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/LocationDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Details_Desc_text"
+                android:text=""/>
+
+            <ImageView
+                android:id="@+id/WeatherIcon"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/_01d"
+                />
+
+            <TextView
+                android:id="@+id/WeatherDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Details_text_Title"
+                android:text=""/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Details_text_Title"
+                android:text="@string/Current_Title"/>
+
+            <TextView
+                android:id="@+id/Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Details_text_Title"
+                android:text=""
+                />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Background_Details"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <TextView
+                    android:id="@+id/Sunrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Details_text"
+                    android:text="" />
+
+                <ImageView
+                    android:id="@+id/SunriseIcon"
+                    android:layout_width="51dp"
+                    android:layout_height="48dp"
+                    android:layout_toEndOf="@id/Sunrise"
+                    android:src="@drawable/icons8_sunrise_100" />
+                <ImageView
+                    android:id="@+id/SunsetIcon"
+                    android:layout_toEndOf="@+id/SunriseIcon"
+                    android:layout_width="51dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/icons8_sunset_100" />
+
+                <TextView
+                    android:id="@+id/Sunset"
+                    android:layout_toEndOf="@id/SunsetIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Details_text"
+                    android:text=""/>
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Background_Details"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Background_Details"/>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <ImageView
+                    android:id="@+id/TempIcon"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icons8_temperature_sensitive_52"
+                    />
+
+                <TextView
+                    android:id="@+id/LocationTemp"
+                    android:layout_toEndOf="@id/TempIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Details_text"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/FeelsLike"
+                    android:layout_toEndOf="@id/TempIcon"
+                    android:layout_below="@id/LocationTemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Details_text"
+                    android:text=""/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Background_Details"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Background_Details"/>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/SunandClouds"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:src="@drawable/_02d" />
+
+                <TextView
+                    android:id="@+id/Clouds"
+                    android:layout_toEndOf="@id/SunandClouds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Details_text"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/UVI"
+                    android:layout_toEndOf="@id/SunandClouds"
+                    android:layout_below="@id/Clouds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Details_text"
+                    android:text=""/>
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Background_Details"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Background_Details"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/WindIcon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:src="@drawable/icons8_wind_64" />
+
+                <TextView
+                    android:id="@+id/WindDeg"
+                    android:layout_toEndOf="@id/WindIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Details_text"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/WindSpeed"
+                    android:layout_toEndOf="@id/WindIcon"
+                    android:layout_below="@id/WindDeg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Details_text"
+                    android:text=""/>
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Background_Details"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Background_Details"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <ImageView
+                    android:id="@+id/Misticon"
+                    android:gravity="center"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/_50d"
+                    />
+
+                <TextView
+                    android:id="@+id/Humidity"
+                    android:layout_toEndOf="@id/Misticon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Details_text"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/Dew_point"
+                    android:layout_toEndOf="@id/Misticon"
+                    android:layout_below="@id/Humidity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Details_text"
+                    android:text=""/>
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Background_Details"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Background_Details"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <ImageView
+                    android:id="@+id/Pressureicon"
+                    android:gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/icons8_pressure_52"
+                    />
+
+                <TextView
+                    android:id="@+id/Pressure"
+                    android:layout_toEndOf="@id/Pressureicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Details_text"
+                    android:text="" />
+
+            </RelativeLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Background_Details"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Background_Details"/>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <ImageView
+                    android:id="@+id/Eyeicon"
+                    android:gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/icons8_eye_96"
+                    />
+
+                <TextView
+                    android:id="@+id/Visibility"
+                    android:layout_toEndOf="@id/Eyeicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Details_text"
+                    android:text="" />
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

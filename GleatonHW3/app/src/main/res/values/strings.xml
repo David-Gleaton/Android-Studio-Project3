@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">GleatonHW3</string>
+
+    <!-- ListActivity -->
+    <string name="List_Title">Locations</string>
+    <string-array name="WeatherLocations">
+        <item>Pawleys Island, SC</item>
+        <item>Clemson, SC</item>
+        <item>New York, NY</item>
+        <item>Greenville, SC</item>
+        <item>London, UK</item>
+        <item>Paris, FR</item>
+        <item>Beijing, CN</item>
+        <item>Tokyo, JP</item>
+        <item>Moscow, RU</item>
+        <item>Berlin, DE</item>
+        <item>Shanghai, CN</item>
+        <item>Hong Kong, CN</item>
+        <item>Dubai, AE</item>
+        <item>Los Angles, CA</item>
+        <item>Dublin, IE</item>
+        <item>Munich, DE</item>
+        <item>Buenos Aires, AR</item>
+        <item>Cairo, EG</item>
+        <item>St. Petersburg, RU</item>
+        <item>Alelaide, AU</item>
+    </string-array>
+
+    <!-- Details Strings -->
+    <string-array name="Location_Descriptions">
+        <item>My hometown, a small tourist destination located on the coast of SC!</item>
+        <item>Our university! A second hometown to many who go to school here.</item>
+        <item>Large and famous, the city calls to all of us.</item>
+        <item>Hometown of my father, a lot of my family live here!</item>
+        <item>Posh and elegant, London still has global reach.</item>
+        <item>Center of France, the center of Fashion.</item>
+        <item>The beating heart of the bethmoth of mainland Asia.</item>
+        <item>The bright lights and crowded streets remind one of futuristic movies.</item>
+        <item>Cold and Imperious, the Kremlin watches over all.</item>
+        <item>The heart of Germany, from this city history and power live hand in hand.</item>
+        <item>Shanghai, on China’s central coast, is the country\'s biggest city and a global financial hub.</item>
+        <item>Hong Kong, officially the Hong Kong Special Administrative Region of the People\'s Republic of China, is a metropolitan area and special administrative region of the People\'s Republic of China on the eastern Pearl River Delta of the South China Sea.</item>
+        <item>Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene.</item>
+        <item>Los Angeles is a sprawling Southern California city and the center of the nation’s film and television industry.</item>
+        <item>Dublin, capital of the Republic of Ireland, is on Ireland’s east coast at the mouth of the River Liffey.</item>
+        <item>Munich, Bavaria’s capital, is home to centuries-old buildings and numerous museums.</item>
+        <item>Buenos Aires is Argentina’s big, cosmopolitan capital city.</item>
+        <item>Cairo, Egypt’s sprawling capital, is set on the Nile River.</item>
+        <item>St. Petersburg is a Russian port city on the Baltic Sea.</item>
+        <item>Adelaide is South Australia’s cosmopolitan coastal capital. Home to the Mighty Black Stump.</item>
+    </string-array>
+
+    <string name="Date_Top">Forecast last updated at:\u0020</string>
+    <string name="Feels_Like">Feels Like:\u0020</string>
+    <string name="hPa">Pressure:\u0020</string>
+    <string name="Humidity_Title">Humidity:\u0020</string>
+    <string name="Dew_Point">Dew Point:\u0020</string>
+    <string name="UVI_Index">UVI Index:\u0020</string>
+    <string name="Cloud_Cover">Cloud Coverage:\u0020</string>
+    <string name="Visibility_title">Visibility:\u0020</string>
+    <string name="WindSpeed">Wind Speed:\u0020</string>
+    <string name="WindDeg">Wind Degree:\u0020</string>
+    <string name="Current_Title">Current Conditions</string>
+
+    <!-- API Strings -->
+    <string name="WEB_URL">https://api.openweathermap.org/data/2.5/onecall?</string>
+    <string name="API_END">\u0026units=imperial\u0026exclude=minutely,hourly,daily,alerts\u0026appid=f5f565a7cc22c42a2e526dd713bc71d3</string>
+
+    <string-array name="API_Lat_Lon">
+        <item>lat=33.4332\u0026lon=-79.1214</item>
+        <item>lat=34.6834\u0026lon=-82.8374</item>
+        <item>lat=40.7128\u0026lon=-74.0060</item>
+        <item>lat=34.8526\u0026lon=-82.3940</item>
+        <item>lat=51.5074\u0026lon=-0.1278</item>
+        <item>lat=48.8566\u0026lon=2.3522</item>
+        <item>lat=39.9042\u0026lon=116.4074</item>
+        <item>lat=35.6762\u0026lon=139.6503</item>
+        <item>lat=55.7558\u0026lon=37.6173</item>
+        <item>lat=52.5200\u0026lon=13.4050</item>
+        <item>lat=31.2304\u0026lon=121.4737</item>
+        <item>lat=22.3193\u0026lon=114.1694</item>
+        <item>lat=25.2048\u0026lon=55.2708</item>
+        <item>lat=34.0522\u0026lon=-118.2437</item>
+        <item>lat=53.3498\u0026lon=-6.2603</item>
+        <item>lat=48.1351\u0026lon=11.5820</item>
+        <item>lat=-34.6037\u0026lon=-58.3816</item>
+        <item>lat=30.0444\u0026lon=31.2357</item>
+        <item>lat=59.9311\u0026lon=30.3609</item>
+        <item>lat=-34.9285\u0026lon=138.6007</item>
+
+
+    </string-array>
+
+</resources>

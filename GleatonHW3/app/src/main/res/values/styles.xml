@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Basic Templates -->
+    <style name="Template_List">
+        <item name="android:background">@color/Background_List</item>
+    </style>
+    <style name="Template_Details">
+        <item name="android:background">@color/Background_Details</item>
+    </style>
+
+
+    <!-- List Row Styles -->
+    <style name="List_Button">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">5sp</item>
+        <item name="android:textColor">@color/Title_Text_Color</item>
+    </style>
+
+
+
+    <!-- Detail Styles-->
+    <style name="Detail_Title">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">5sp</item>
+        <item name="android:textColor">@color/Title_Text_Color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Details_Desc_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:textColor">@color/Title_Text_Color</item>
+    </style>
+
+    <style name="Details_text_Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:textColor">@color/Details_Text_Color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="Details_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">5sp</item>
+        <item name="android:textColor">@color/Details_Text_Color</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
